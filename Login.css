@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Kanit:wght@200&family=Oxygen&family=Prompt:ital,wght@1,200&family=Varela+Round&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Kanit:wght@200&family=Oxygen&family=Prompt:ital,wght@1,200&display=swap'); */
+*{
+
+    /*  this is font style*/
+    font-family: 'Bree Serif', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+
+    /* font-family: 'Bree Serif', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Prompt', sans-serif; */   
+}
+body{
+
+
+    background: linear-gradient(#c04c8d,#264eae);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+div{
+background-color: white;
+width: 350px;
+height: auto;
+margin: 80px auto;
+padding: 20px;
+box-shadow: 0px 0px 25px rgb(90, 85, 85);
+border-width: 1px;
+box-sizing: border-box;
+
+text-align: center;
+
+}
+
+input{
+    background-color: rgb(205,205,205);
+    border: none;
+height: 35px;
+width: 280px;
+margin-bottom: 3px;
+margin-left: 10px;
+display: block;
+}
+
+#checkbox{
+    border: 10px;
+    height: 10px;
+    accent-color: #c04c8d;
+    display: inline;
+
+}
+label{
+    font-size: 15px;
+}
+button{
+    display: block;
+    background-color: #d2599e;
+    width: 280px;
+    height: 35px;
+    margin: 20px 20px auto;
+    border: none;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 0px 0px rgb(165,165,165);
+}
+
+span
+{
+    text-align: center;
+    color: rgb(197,197,197);
+    display: block;
+    margin: 20px 20px ;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 4px 20px;
+    border: solid 1px rgb(154 ,154,154);
+    text-align: center;
+    margin: 5px 5px auto;
+}
